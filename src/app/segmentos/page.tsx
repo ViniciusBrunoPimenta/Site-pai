@@ -13,9 +13,9 @@ import {
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Segmentos Atendidos | EmbalaFlex Londrina",
+  title: "Segmentos Atendidos | AP Embalagens Londrina",
   description:
-    "A EmbalaFlex atende e-commerce, indústrias, alimentos, mudanças, logística e varejo com embalagens de papelão sob medida em Londrina e região.",
+    "A AP Embalagens atende e-commerce, indústrias, alimentos, mudanças, logística e varejo com embalagens de papelão sob medida em Londrina e região.",
 };
 
 const segmentos = [
@@ -204,21 +204,21 @@ export default function SegmentosPage() {
             <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-3 uppercase tracking-wider">
               Onde Estamos
             </span>
-            <h2 className="section-title">Área de Atuação</h2>
+            <h2 className="section-title">Atendemos todo o Brasil</h2>
             <p className="section-subtitle mx-auto text-center">
-              Atendemos Londrina e toda a região Norte do Paraná com frota própria.
+              Atendemos empresas de todo o Brasil — do pequeno e-commerce à grande indústria.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Londrina", "Cambé", "Ibiporã", "Rolândia", "Arapongas",
-              "Apucarana", "Cornélio Procópio", "Bandeirantes", "Santo Antônio da Platina",
-            ].map((city) => (
+              "Norte do Paraná", "Sul do Brasil", "São Paulo", "Rio de Janeiro",
+              "Minas Gerais", "Centro-Oeste", "Nordeste", "Norte do Brasil", "Brasil Inteiro",
+            ].map((region) => (
               <span
-                key={city}
+                key={region}
                 className="bg-blue-50 border border-blue-200 text-blue-700 font-medium px-4 py-2 rounded-full text-sm"
               >
-                📍 {city}
+                📍 {region}
               </span>
             ))}
           </div>

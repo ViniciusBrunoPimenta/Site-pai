@@ -12,8 +12,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "EmbalaFlex | Embalagens de Papelão em Londrina",
-    template: "%s | EmbalaFlex",
+    default: "AP Embalagens | Embalagens de Papelão em Londrina",
+    template: "%s | AP Embalagens",
   },
   description:
     "Fabricantes de caixas e embalagens de papelão em Londrina e região. Caixas personalizadas, para e-commerce, industriais e projetos sob medida. Solicite seu orçamento!",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     "embalagens Rolândia",
     "norte do Paraná",
   ],
-  authors: [{ name: "EmbalaFlex" }],
+  authors: [{ name: "AP Embalagens" }],
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://embalaflex.com.br",
-    siteName: "EmbalaFlex",
-    title: "EmbalaFlex | Embalagens de Papelão em Londrina",
+    url: "https://apembalagens.com.br",
+    siteName: "AP Embalagens",
+    title: "AP Embalagens | Embalagens de Papelão em Londrina",
     description:
       "Fabricantes de caixas e embalagens de papelão em Londrina e região. Solicite seu orçamento!",
   },

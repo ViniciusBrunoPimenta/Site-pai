@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Package, Phone, Mail, MapPin, Instagram, Facebook, Youtube } from "lucide-react";
+import { Package, Phone, Mail, MapPin } from "lucide-react";
 
 const products = [
   "Caixas Personalizadas",
@@ -38,7 +38,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-xl font-bold">
-                  Embala<span className="text-blue-400">Flex</span>
+                  AP <span className="text-blue-400">Embalagens</span>
                 </span>
                 <p className="text-xs text-blue-300 leading-none">Embalagens de Papelão</p>
               </div>
@@ -47,29 +47,6 @@ export default function Footer() {
               Fabricantes de embalagens e caixas de papelão com atendimento em todo o Brasil.
               Qualidade, agilidade e atendimento personalizado.
             </p>
-            <div className="flex gap-3">
-              <a
-                href="#"
-                className="w-9 h-9 bg-white/10 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 bg-white/10 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                className="w-9 h-9 bg-white/10 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors"
-                aria-label="YouTube"
-              >
-                <Youtube className="w-4 h-4" />
-              </a>
-            </div>
           </div>
 
           {/* Products */}
@@ -148,11 +125,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:contato@embalaflex.com.br"
+                  href="mailto:Ailton_prod@yahoo.com.br"
                   className="flex items-start gap-3 text-sm text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   <Mail className="w-4 h-4 mt-0.5 flex-shrink-0 text-blue-500" />
-                  contato@embalaflex.com.br
+                  Ailton_prod@yahoo.com.br
                 </a>
               </li>
               <li>
@@ -169,8 +146,8 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="container-custom py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} EmbalaFlex. Todos os direitos reservados.</p>
-          <p>Desenvolvido com tecnologia Next.js • Londrina, Paraná</p>
+          <p>© {new Date().getFullYear()} AP Embalagens · AILTON PIMENTA EMBALAGENS LTDA · CNPJ 65.446.232/0001-13</p>
+          <p>Todos os direitos reservados · Londrina, Paraná</p>
         </div>
       </div>
     </footer>

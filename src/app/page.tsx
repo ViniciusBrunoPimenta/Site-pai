@@ -19,7 +19,7 @@ import Testimonials from "@/components/Testimonials";
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "EmbalaFlex | Embalagens e Caixas de Papelão em Londrina",
+  title: "AP Embalagens | Embalagens e Caixas de Papelão em Londrina",
   description:
     "Fabricantes de caixas e embalagens de papelão em Londrina e região Norte do Paraná. Caixas para e-commerce, indústrias e personalizadas. Solicite orçamento agora!",
 };
@@ -203,7 +203,7 @@ export default function HomePage() {
               {/* Stats 2×2 */}
               <div className="grid grid-cols-2 gap-4 mb-8">
                 {[
-                  { value: "15+", label: "Anos de experiência" },
+                  { value: "25+", label: "Anos de experiência" },
                   { value: "10M+", label: "Caixas por ano" },
                   { value: "500+", label: "Clientes ativos" },
                   { value: "48h", label: "Prazo de resposta" },
@@ -238,7 +238,7 @@ export default function HomePage() {
         <div className="container-custom">
           <div className="text-center mb-14">
             <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-3 uppercase tracking-wider">
-              Por que a EmbalaFlex?
+              Por que a AP Embalagens?
             </span>
             <h2 className="section-title">Seus diferenciais de uma fábrica local</h2>
             <p className="section-subtitle mx-auto text-center">

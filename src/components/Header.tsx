@@ -45,7 +45,7 @@ export default function Header() {
                   scrolled ? "text-gray-900" : "text-white"
                 }`}
               >
-                Embala<span className="text-blue-400">Flex</span>
+                AP <span className="text-blue-400">Embalagens</span>
               </span>
               <p
                 className={`text-xs leading-none transition-colors ${
