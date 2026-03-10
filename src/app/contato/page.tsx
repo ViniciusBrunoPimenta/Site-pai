@@ -25,8 +25,8 @@ const contactInfo = [
   {
     icon: <Mail className="w-5 h-5" />,
     title: "E-mail",
-    lines: ["contato@embalaflex.com.br", "vendas@embalaflex.com.br"],
-    href: "mailto:contato@embalaflex.com.br",
+    lines: ["Ailton_prod@yahoo.com.br"],
+    href: "mailto:Ailton_prod@yahoo.com.br",
     color: "bg-purple-100 text-purple-600",
   },
   {
@@ -66,10 +66,22 @@ export default function ContatoPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSending(true);
-    // Simulate sending
-    await new Promise((r) => setTimeout(r, 1500));
-    setSending(false);
-    setSent(true);
+    try {
+      const res = await fetch("https://formspree.io/f/xbdzgzqd", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setSent(true);
+      } else {
+        alert("Erro ao enviar. Tente pelo WhatsApp.");
+      }
+    } catch {
+      alert("Erro ao enviar. Tente pelo WhatsApp.");
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -82,7 +94,7 @@ export default function ContatoPage() {
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Contato</h1>
           <p className="text-blue-200 text-lg max-w-xl mx-auto">
-            Solicite seu orçamento agora. Nossa equipe responde em até 2 horas úteis.
+            Atendemos todo o Brasil. Nossa equipe responde em até 2 horas úteis.
           </p>
         </div>
       </section>
@@ -290,7 +302,7 @@ export default function ContatoPage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Localização EmbalaFlex - Londrina PR"
+          title="Localização AP Embalagens - Londrina PR"
         />
       </section>
     </>
