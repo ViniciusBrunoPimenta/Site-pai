@@ -52,7 +52,6 @@ const homeProducts = [
     title: "Caixas Personalizadas",
     description:
       "Desenvolvemos caixas com sua logomarca, cores e medidas exclusivas. Ideal para fortalecer sua marca na entrega.",
-    minQty: "A partir de 500 unidades",
     specs: ["Impressão flexográfica", "Diversas gramaturas", "Modelos exclusivos"],
     highlight: true,
   },
@@ -60,14 +59,12 @@ const homeProducts = [
     title: "Caixas para E-commerce",
     description:
       "Resistentes, leves e econômicas. Perfeitas para proteger produtos no transporte e surpreender seu cliente.",
-    minQty: "A partir de 100 unidades",
     specs: ["Papel Kraft resistente", "Fechamento seguro", "Tamanhos variados"],
   },
   {
     title: "Embalagens Industriais",
     description:
       "Caixas robustas para proteger peças, equipamentos e cargas pesadas no armazenamento e transporte.",
-    minQty: "A partir de 200 unidades",
     specs: ["Alta resistência", "Reforço interno", "Dimensões sob medida"],
   },
 ];

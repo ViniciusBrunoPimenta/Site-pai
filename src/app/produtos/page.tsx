@@ -48,15 +48,6 @@ const products = [
     accentColor: "from-purple-500 to-violet-600",
   },
   {
-    img: "https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto5.png",
-    label: "Pallet",
-    badge: "Industrial",
-    badgeColor: "bg-gray-700 text-white",
-    desc: "Pallets de papelão como alternativa sustentável, leve e econômica para movimentação logística.",
-    features: ["Sustentável", "Alta carga", "Leve e prático"],
-    accentColor: "from-gray-600 to-gray-800",
-  },
-  {
     img: "https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto6-min.png",
     label: "Embalagem E-commerce",
     badge: "E-commerce",
