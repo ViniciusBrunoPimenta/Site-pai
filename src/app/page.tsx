@@ -201,7 +201,7 @@ export default function HomePage() {
               <div className="grid grid-cols-2 gap-4 mb-8">
                 {[
                   { value: "25+", label: "Anos de experiência" },
-                  { value: "10M+", label: "Caixas por ano" },
+                  { value: "20 Milhões+", label: "Caixas por ano" },
                   { value: "500+", label: "Clientes ativos" },
                   { value: "48h", label: "Prazo de resposta" },
                 ].map((stat) => (

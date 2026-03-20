@@ -15,8 +15,8 @@ const stats = [
   },
   {
     icon: <Package className="w-7 h-7" />,
-    value: "10M+",
-    label: "Caixas Produzidas",
+    value: "20 Milhões+",
+    label: "Caixas Produzidas/Ano",
     desc: "Capacidade industrial",
   },
   {

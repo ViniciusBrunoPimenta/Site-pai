@@ -256,8 +256,8 @@ export default function ProdutosPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "10M+", label: "Caixas produzidas por ano" },
-                { value: "15+", label: "Anos de experiência" },
+                { value: "20 Milhões+", label: "Caixas produzidas por ano" },
+                { value: "25+", label: "Anos de experiência" },
                 { value: "500+", label: "Clientes em todo o Brasil" },
                 { value: "48h", label: "Prazo de resposta ao orçamento" },
               ].map((s) => (
