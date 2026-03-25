@@ -256,7 +256,7 @@ export default function ContatoPage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Localização AP Embalagens - Londrina PR"
+          title="Localização Manancial Pack - Londrina PR"
         />
       </section>
     </>

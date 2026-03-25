@@ -12,8 +12,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "AP Embalagens | Embalagens de Papelão em Londrina",
-    template: "%s | AP Embalagens",
+    default: "Manancial Pack | Embalagens de Papelão em Londrina",
+    template: "%s | Manancial Pack",
   },
   description:
     "Fabricantes de caixas e embalagens de papelão em Londrina e região. Caixas personalizadas, para e-commerce, industriais e projetos sob medida. Solicite seu orçamento!",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     "embalagens Rolândia",
     "norte do Paraná",
   ],
-  authors: [{ name: "AP Embalagens" }],
+  authors: [{ name: "Manancial Pack" }],
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://apembalagens.com.br",
-    siteName: "AP Embalagens",
-    title: "AP Embalagens | Embalagens de Papelão em Londrina",
+    url: "https://manancialpack.com.br",
+    siteName: "Manancial Pack",
+    title: "Manancial Pack | Embalagens de Papelão em Londrina",
     description:
       "Fabricantes de caixas e embalagens de papelão em Londrina e região. Solicite seu orçamento!",
   },

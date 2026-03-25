@@ -51,7 +51,7 @@ export default function Testimonials() {
             Números que comprovam
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
-            A confiança de quem já escolheu a EmbalaFlex
+            A confiança de quem já escolheu a Manancial Pack
           </h2>
           <p className="text-white/60 max-w-xl mx-auto text-base">
             25 anos de entrega consistente, qualidade comprovada e clientes que retornam em todo o Brasil.

@@ -13,9 +13,9 @@ import {
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Segmentos Atendidos | AP Embalagens Londrina",
+  title: "Segmentos Atendidos | Manancial Pack Londrina",
   description:
-    "A AP Embalagens atende e-commerce, indústrias, alimentos, mudanças, logística e varejo com embalagens de papelão sob medida em Londrina e região.",
+    "A Manancial Pack atende e-commerce, indústrias, alimentos, mudanças, logística e varejo com embalagens de papelão sob medida em Londrina e região.",
 };
 
 const segmentos = [

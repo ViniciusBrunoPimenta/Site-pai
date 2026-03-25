@@ -38,9 +38,9 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-xl font-bold">
-                  AP <span className="text-blue-400">Embalagens</span>
+                  Manancial <span className="text-blue-400">Pack</span>
                 </span>
-                <p className="text-xs text-blue-300 leading-none">Embalagens de Papelão</p>
+                <p className="text-xs text-blue-300 leading-none">Embalagens e Caixas</p>
               </div>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
@@ -146,7 +146,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="container-custom py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} AP Embalagens · AILTON PIMENTA EMBALAGENS LTDA · CNPJ 65.446.232/0001-13</p>
+          <p>© {new Date().getFullYear()} Manancial Pack · AILTON PIMENTA EMBALAGENS LTDA · CNPJ 65.446.232/0001-13</p>
           <p>Todos os direitos reservados · Londrina, Paraná</p>
         </div>
       </div>
