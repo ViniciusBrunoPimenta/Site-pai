@@ -48,15 +48,6 @@ const products = [
     accentColor: "from-purple-500 to-violet-600",
   },
   {
-    img: "https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto5.png",
-    label: "Pallet",
-    badge: "Industrial",
-    badgeColor: "bg-gray-700 text-white",
-    desc: "Pallets de papelão como alternativa sustentável, leve e econômica para movimentação logística.",
-    features: ["Sustentável", "Alta carga", "Leve e prático"],
-    accentColor: "from-gray-600 to-gray-800",
-  },
-  {
     img: "https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto6-min.png",
     label: "Embalagem E-commerce",
     badge: "E-commerce",
@@ -265,8 +256,8 @@ export default function ProdutosPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "10M+", label: "Caixas produzidas por ano" },
-                { value: "15+", label: "Anos de experiência" },
+                { value: "20 Milhões+", label: "Caixas produzidas por ano" },
+                { value: "25+", label: "Anos de experiência" },
                 { value: "500+", label: "Clientes em todo o Brasil" },
                 { value: "48h", label: "Prazo de resposta ao orçamento" },
               ].map((s) => (

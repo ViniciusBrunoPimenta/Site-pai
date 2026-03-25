@@ -3,9 +3,9 @@ import { CheckCircle, Users, Award, TrendingUp } from "lucide-react";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Sobre a Empresa | AP Embalagens Londrina",
+  title: "Sobre a Empresa | Manancial Pack Londrina",
   description:
-    "Conheça a AP Embalagens: mais de 25 anos fabricando embalagens e caixas de papelão com qualidade, compromisso e atendimento em todo o Brasil.",
+    "Conheça a Manancial Pack: mais de 25 anos fabricando embalagens e caixas de papelão com qualidade, compromisso e atendimento em todo o Brasil.",
 };
 
 const valores = [
@@ -42,7 +42,7 @@ export default function SobrePage() {
               Sobre Nós
             </span>
             <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
-              AP Embalagens
+              Manancial Pack
             </h1>
             <p className="text-blue-200 text-lg leading-relaxed">
               Há mais de 25 anos fabricando embalagens de papelão com qualidade, agilidade e
@@ -59,7 +59,7 @@ export default function SobrePage() {
             <span className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-3 uppercase tracking-wider">
               Nossos Valores
             </span>
-            <h2 className="section-title">O que guia a AP Embalagens</h2>
+            <h2 className="section-title">O que guia a Manancial Pack</h2>
             <p className="section-subtitle mx-auto text-center">
               Princípios que construímos ao longo de 25 anos e que orientam cada decisão.
             </p>

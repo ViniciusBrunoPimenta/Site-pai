@@ -45,14 +45,14 @@ export default function Header() {
                   scrolled ? "text-gray-900" : "text-white"
                 }`}
               >
-                AP <span className="text-blue-400">Embalagens</span>
+                Manancial <span className="text-blue-400">Pack</span>
               </span>
               <p
                 className={`text-xs leading-none transition-colors ${
                   scrolled ? "text-gray-500" : "text-blue-200"
                 }`}
               >
-                Embalagens de Papelão
+                Embalagens e Caixas
               </p>
             </div>
           </Link>
