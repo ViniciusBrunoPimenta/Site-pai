@@ -13,6 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://manancialpack.com.br"),
   title: {
     default: "Manancial Pack | Embalagens de Papelão em Londrina",
     template: "%s | Manancial Pack",
