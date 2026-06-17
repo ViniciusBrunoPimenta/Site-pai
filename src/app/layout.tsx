@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import ConversionTracker from "@/components/ConversionTracker";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -37,6 +39,14 @@ export const metadata: Metadata = {
     title: "Manancial Pack | Embalagens de Papelão em Londrina",
     description:
       "Fabricantes de caixas e embalagens de papelão em Londrina e região. Solicite seu orçamento!",
+    images: [
+      {
+        url: "/logo.png",
+        width: 44,
+        height: 44,
+        alt: "Manancial Pack",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -52,6 +62,20 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="antialiased">
+        {/* Google tag (gtag.js) - Google Ads */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11481397027"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11481397027');
+          `}
+        </Script>
+        <ConversionTracker />
         <Header />
         <main>{children}</main>
         <Footer />

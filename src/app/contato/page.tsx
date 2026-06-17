@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { reportConversion } from "@/lib/gtag";
 
 const contactInfo = [
   {
@@ -71,7 +72,9 @@ export default function ContatoPage() {
       "",
       `Necessidade: ${form.mensagem}`,
     ].filter(Boolean).join("\n");
-    window.open(`https://wa.me/5543998290097?text=${encodeURIComponent(lines)}`, "_blank");
+    const url = `https://wa.me/5543998290097?text=${encodeURIComponent(lines)}`;
+    reportConversion();
+    window.open(url, "_blank");
   };
 
   return (

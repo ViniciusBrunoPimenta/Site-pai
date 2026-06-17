@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Package, Phone, Mail, MapPin } from "lucide-react";
+import Image from "next/image";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const products = [
   "Caixas Personalizadas",
@@ -33,9 +34,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Package className="w-5 h-5 text-white" />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Manancial Pack"
+                width={44}
+                height={44}
+                className="w-11 h-11 object-contain rounded-lg"
+              />
               <div>
                 <span className="text-xl font-bold">
                   Manancial <span className="text-blue-400">Pack</span>
