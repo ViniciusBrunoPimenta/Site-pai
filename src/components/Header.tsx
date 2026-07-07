@@ -38,8 +38,8 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="/logo.png"
-              alt="Manancial Pack"
+              src="/Designer%20(3).png"
+              alt="Pimenta Embalagens"
               width={44}
               height={44}
               priority
@@ -51,7 +51,7 @@ export default function Header() {
                   scrolled ? "text-gray-900" : "text-white"
                 }`}
               >
-                Manancial <span className="text-blue-400">Pack</span>
+                Pimenta <span className="text-blue-400">Embalagens</span>
               </span>
               <p
                 className={`text-xs leading-none transition-colors ${

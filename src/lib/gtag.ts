@@ -3,11 +3,9 @@
 // ID da conta do Google Ads (tag base, já instalada no layout.tsx)
 export const GA_ADS_ID = "AW-11481397027";
 
-// ⚠️ SUBSTITUA pelo "rótulo da conversão" gerado no Google Ads.
-// É a parte que vem DEPOIS da barra "/" no snippet de conversão.
-// Ex: se o Google Ads mostrar  'AW-11481397027/AbC-D_efGh12'
-//     então cole aqui apenas:  'AbC-D_efGh12'
-export const CONVERSION_LABEL = "COLE_AQUI_O_ROTULO";
+// Rótulo da conversão "Lead WhatsApp" gerado no Google Ads
+// (a parte que vem DEPOIS da barra "/" no snippet de conversão).
+export const CONVERSION_LABEL = "QmGjCM2bp8AcEKPu4OIq";
 
 declare global {
   interface Window {
@@ -27,6 +25,8 @@ export function reportConversion(callback?: () => void) {
 
   window.gtag("event", "conversion", {
     send_to: `${GA_ADS_ID}/${CONVERSION_LABEL}`,
+    value: 1.0,
+    currency: "BRL",
     event_callback: callback,
   });
 }

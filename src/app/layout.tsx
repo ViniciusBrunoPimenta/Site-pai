@@ -13,10 +13,10 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://manancialpack.com.br"),
+  metadataBase: new URL("https://pimentaembalagens.com.br"),
   title: {
-    default: "Manancial Pack | Embalagens de Papelão em Londrina",
-    template: "%s | Manancial Pack",
+    default: "Pimenta Embalagens | Embalagens de Papelão em Londrina",
+    template: "%s | Pimenta Embalagens",
   },
   description:
     "Fabricantes de caixas e embalagens de papelão em Londrina e região. Caixas personalizadas, para e-commerce, industriais e projetos sob medida. Solicite seu orçamento!",
@@ -31,21 +31,21 @@ export const metadata: Metadata = {
     "embalagens Rolândia",
     "norte do Paraná",
   ],
-  authors: [{ name: "Manancial Pack" }],
+  authors: [{ name: "Pimenta Embalagens" }],
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://manancialpack.com.br",
-    siteName: "Manancial Pack",
-    title: "Manancial Pack | Embalagens de Papelão em Londrina",
+    url: "https://pimentaembalagens.com.br",
+    siteName: "Pimenta Embalagens",
+    title: "Pimenta Embalagens | Embalagens de Papelão em Londrina",
     description:
       "Fabricantes de caixas e embalagens de papelão em Londrina e região. Solicite seu orçamento!",
     images: [
       {
-        url: "/logo.png",
+        url: "/Designer%20(3).png",
         width: 44,
         height: 44,
-        alt: "Manancial Pack",
+        alt: "Pimenta Embalagens",
       },
     ],
   },

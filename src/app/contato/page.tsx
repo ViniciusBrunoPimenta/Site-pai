@@ -259,7 +259,7 @@ export default function ContatoPage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Localização Manancial Pack - Londrina PR"
+          title="Localização Pimenta Embalagens - Londrina PR"
         />
       </section>
     </>
