@@ -4,7 +4,7 @@ import { ArrowRight, Package } from "lucide-react";
 interface ProductCardProps {
   title: string;
   description: string;
-  minQty: string;
+  minQty?: string;
   specs: string[];
   icon?: React.ReactNode;
   highlight?: boolean;
@@ -13,7 +13,6 @@ interface ProductCardProps {
 export default function ProductCard({
   title,
   description,
-  minQty,
   specs,
   icon,
   highlight = false,
@@ -55,11 +54,6 @@ export default function ProductCard({
           </li>
         ))}
       </ul>
-
-      {/* Min qty */}
-      <div className="bg-gray-50 rounded-lg px-3 py-2 mb-4 text-xs text-gray-500">
-        <span className="font-semibold text-gray-700">Qtd. mínima:</span> {minQty}
-      </div>
 
       <Link
         href="/contato"

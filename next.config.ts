@@ -1,36 +1,21 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Compressão gzip automática
-  compress: true,
+  // Gera o site como arquivos estáticos (HTML/CSS/JS) na pasta "out/",
+  // para hospedar na Hostinger (hospedagem compartilhada, sem Node.js).
+  output: "export",
 
-  // Otimização de imagens
+  // Em site estático não há servidor para otimizar imagens em tempo real.
   images: {
-    formats: ["image/avif", "image/webp"],
-    remotePatterns: [],
+    unoptimized: true,
   },
 
-  // Headers de segurança e performance
-  async headers() {
-    return [
-      {
-        source: "/(.*)",
-        headers: [
-          { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "X-Frame-Options", value: "DENY" },
-          { key: "X-XSS-Protection", value: "1; mode=block" },
-          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        ],
-      },
-      {
-        // Cache longo para assets estáticos
-        source: "/_next/static/(.*)",
-        headers: [
-          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
-        ],
-      },
-    ];
-  },
+  // Gera URLs como /sobre/ (pasta com index.html) — melhor para Apache/Hostinger.
+  trailingSlash: true,
 };
+
+// Obs: os headers de segurança e cache (X-Frame-Options, Cache-Control, etc.)
+// foram movidos para o arquivo public/.htaccess, pois "headers()" do Next
+// só funciona com servidor Node e é ignorado na exportação estática.
 
 export default nextConfig;

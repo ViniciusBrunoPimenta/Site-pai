@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/fbe4c59b7045f06e.css","style"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto1.png","image"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto2.png","image"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto3.png","image"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto4.png","image"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto6-min.png","image"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto7.png","image"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto8.png","image"]
+:HL["https://manancialembalagens.com.br/wp-content/uploads/2019/07/produto9.png","image"]
+0:{"buildId":"qaUCQ1NV1hl3Q7Fm1vOSL","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"produtos","paramType":null,"paramKey":"produtos","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

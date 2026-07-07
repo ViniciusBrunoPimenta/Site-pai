@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, X, Package, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -36,23 +37,28 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center group-hover:bg-blue-700 transition-colors">
-              <Package className="w-5 h-5 text-white" />
-            </div>
+            <Image
+              src="/Designer%20(3).png"
+              alt="Pimenta Embalagens"
+              width={44}
+              height={44}
+              priority
+              className="w-11 h-11 object-contain rounded-lg"
+            />
             <div>
               <span
                 className={`text-xl font-bold transition-colors ${
                   scrolled ? "text-gray-900" : "text-white"
                 }`}
               >
-                AP <span className="text-blue-400">Embalagens</span>
+                Pimenta <span className="text-blue-400">Embalagens</span>
               </span>
               <p
                 className={`text-xs leading-none transition-colors ${
                   scrolled ? "text-gray-500" : "text-blue-200"
                 }`}
               >
-                Embalagens de Papelão
+                Embalagens e Caixas
               </p>
             </div>
           </Link>

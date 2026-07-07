@@ -13,9 +13,9 @@ import {
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Segmentos Atendidos | AP Embalagens Londrina",
+  title: "Segmentos Atendidos | Pimenta Embalagens Londrina",
   description:
-    "A AP Embalagens atende e-commerce, indústrias, alimentos, mudanças, logística e varejo com embalagens de papelão sob medida em Londrina e região.",
+    "A Pimenta Embalagens atende e-commerce, indústrias, alimentos, mudanças, logística e varejo com embalagens de papelão sob medida em Londrina e região.",
 };
 
 const segmentos = [

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Package, Phone, Mail, MapPin } from "lucide-react";
+import Image from "next/image";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const products = [
   "Caixas Personalizadas",
@@ -33,14 +34,18 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Package className="w-5 h-5 text-white" />
-              </div>
+              <Image
+                src="/Designer%20(3).png"
+                alt="Pimenta Embalagens"
+                width={44}
+                height={44}
+                className="w-11 h-11 object-contain rounded-lg"
+              />
               <div>
                 <span className="text-xl font-bold">
-                  AP <span className="text-blue-400">Embalagens</span>
+                  Pimenta <span className="text-blue-400">Embalagens</span>
                 </span>
-                <p className="text-xs text-blue-300 leading-none">Embalagens de Papelão</p>
+                <p className="text-xs text-blue-300 leading-none">Embalagens e Caixas</p>
               </div>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
@@ -146,7 +151,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="container-custom py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} AP Embalagens · AILTON PIMENTA EMBALAGENS LTDA · CNPJ 65.446.232/0001-13</p>
+          <p>© {new Date().getFullYear()} Pimenta Embalagens · AILTON PIMENTA EMBALAGENS LTDA · CNPJ 65.446.232/0001-13</p>
           <p>Todos os direitos reservados · Londrina, Paraná</p>
         </div>
       </div>
